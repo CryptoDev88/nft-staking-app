@@ -635,26 +635,6 @@ const Home = () => {
                 />
               </Center>
               <Heading size="md">Get Coin NFT</Heading>
-              <Stack spacing="6">
-                <li>You can get as much NFTs as you need.</li>
-                <li>Coin NFTs follow the ERC1155 Standard.</li>
-                <li>
-                  Each NFT cost {priceNFT ? formatNumber(priceNFT) : "1"} CELO.
-                </li>
-                <li>
-                  Get CELO tokens from{" "}
-                  <b>
-                    <a
-                      href="https://faucet.celo.org/"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      faucet
-                    </a>
-                  </b>
-                  .
-                </li>
-              </Stack>
               <Stack
                 spacing="8"
                 borderWidth="1px"
